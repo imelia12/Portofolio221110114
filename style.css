@@ -1,0 +1,109 @@
+body {
+  min-height: 100px;
+  color: white;
+}
+.jumbotron {
+  padding-top: 12rem;
+  background-color: black;
+  color: rgb(50, 179, 231);
+}
+h2 {
+  color: rgb(50, 179, 231);
+}
+#about {
+  padding-top: 5rem;
+  background-color: rgb(12, 3, 38);
+}
+.progress {
+  background-color: black;
+  justify-content: flex-start;
+  border-radius: 50px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 25px;
+  width: 100%;
+}
+.pro-value1 {
+  animation: load1 3s normal forwards;
+  border-radius: 50px;
+  background-color: rgb(50, 179, 231);
+  height: 25px;
+  width: 0;
+}
+.progress p {
+  color: white;
+  padding: 5px;
+}
+.pro-value2 {
+  animation: load2 3s normal forwards;
+  border-radius: 50px;
+  background-color: rgb(50, 179, 231);
+  height: 25px;
+  width: 0;
+}
+.pro-value3 {
+  animation: load3 3s normal forwards;
+  border-radius: 50px;
+  background-color: rgb(50, 179, 231);
+  height: 25px;
+  width: 0;
+}
+.pro-value4 {
+  animation: load3 3s normal forwards;
+  border-radius: 50px;
+  background-color: rgb(50, 179, 231);
+  height: 25px;
+  width: 0;
+}
+@keyframes load1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes load2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 30%;
+  }
+}
+@keyframes load3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 25%;
+  }
+}
+@keyframes load4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 25%;
+  }
+}
+#projek {
+  padding-top: 5rem;
+  background-color: black;
+}
+#kontak {
+  padding-top: 5rem;
+  background-color: rgb(12, 3, 38);
+}
+.nav-link {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: white;
+  background-color: rgb(12, 3, 38);
+}
